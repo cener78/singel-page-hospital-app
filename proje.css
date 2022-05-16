@@ -1,0 +1,117 @@
+:root {
+  --color1: rgb(235, 178, 17);
+}
+
+.topbar {
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.topbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+.topbar i {
+  color: rgb(175, 233, 17);
+}
+.topbar .social-links i {
+  font-size: 1.5rem;
+}
+.navbar {
+  font-size: 1.3rem;
+  background-color: rgb(245, 215, 238) !important;
+  position: sticky;
+
+  z-index: 7;
+}
+.navbar ul a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+}
+.navbar ul a:hover {
+  background-color: burlywood;
+  border-bottom: 3rem blue !important;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  left: 2.5rem;
+
+  color: #fff;
+  text-align: left;
+  bottom: auto;
+  width: 40%;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 3px black;
+}
+.carousel-caption h5 {
+  font-size: 2rem;
+  text-shadow: 1px 1px 3px black;
+}
+.carousel-control-prev {
+  right: 1.5rem;
+  left: auto;
+}
+
+.why-us {
+  position: relative;
+  top: -100px;
+  z-index: 4;
+}
+.why-us .col:first-child .card {
+  background-color: yellow;
+}
+.why-us i {
+  color: blue;
+  font-size: 3rem;
+}
+.views {
+  text-align: center;
+  border: 0;
+}
+.views i {
+  color: orange;
+  font-size: 3rem;
+}
+.views h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: blue;
+}
+.gallery img {
+  border-radius: 0.5rem;
+  transition: transform 0.5s;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.gallery img:hover {
+  transform: scale(2);
+  border-radius: 0.5rem;
+}
+.appointment-form {
+  background-color: rgb(212, 209, 209);
+  margin-top: 2rem;
+}
+.randevu {
+  text-align: center;
+}
+footer div ul{
+  list-style: none;
+}
+
+footer div ul a{
+  text-decoration: none;
+  color:black
+}
